@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A830382A360ED80033B8FB /* WWDC2022_GridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830372A360ED80033B8FB /* WWDC2022_GridApp.swift */; };
+		39A8303A2A360ED80033B8FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830392A360ED80033B8FB /* ContentView.swift */; };
+		39A8303C2A360ED90033B8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A8303B2A360ED90033B8FB /* Assets.xcassets */; };
+		39A8303F2A360ED90033B8FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A8303E2A360ED90033B8FB /* Preview Assets.xcassets */; };
+		39A830492A360ED90033B8FB /* WWDC2022_GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830482A360ED90033B8FB /* WWDC2022_GridTests.swift */; };
+		39A830532A360ED90033B8FB /* WWDC2022_GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830522A360ED90033B8FB /* WWDC2022_GridUITests.swift */; };
+		39A830552A360ED90033B8FB /* WWDC2022_GridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830542A360ED90033B8FB /* WWDC2022_GridUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39A830452A360ED90033B8FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39A8302C2A360ED80033B8FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39A830332A360ED80033B8FB;
+			remoteInfo = "WWDC2022-Grid";
+		};
+		39A8304F2A360ED90033B8FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39A8302C2A360ED80033B8FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39A830332A360ED80033B8FB;
+			remoteInfo = "WWDC2022-Grid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39A830342A360ED80033B8FB /* WWDC2022-Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC2022-Grid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A830372A360ED80033B8FB /* WWDC2022_GridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2022_GridApp.swift; sourceTree = "<group>"; };
+		39A830392A360ED80033B8FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39A8303B2A360ED90033B8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39A8303E2A360ED90033B8FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39A830442A360ED90033B8FB /* WWDC2022-GridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WWDC2022-GridTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A830482A360ED90033B8FB /* WWDC2022_GridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2022_GridTests.swift; sourceTree = "<group>"; };
+		39A8304E2A360ED90033B8FB /* WWDC2022-GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WWDC2022-GridUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A830522A360ED90033B8FB /* WWDC2022_GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2022_GridUITests.swift; sourceTree = "<group>"; };
+		39A830542A360ED90033B8FB /* WWDC2022_GridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2022_GridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39A830312A360ED80033B8FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A830412A360ED90033B8FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A8304B2A360ED90033B8FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39A8302B2A360ED80033B8FB = {
+			isa = PBXGroup;
+			children = (
+				39A830362A360ED80033B8FB /* WWDC2022-Grid */,
+				39A830472A360ED90033B8FB /* WWDC2022-GridTests */,
+				39A830512A360ED90033B8FB /* WWDC2022-GridUITests */,
+				39A830352A360ED80033B8FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39A830352A360ED80033B8FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A830342A360ED80033B8FB /* WWDC2022-Grid.app */,
+				39A830442A360ED90033B8FB /* WWDC2022-GridTests.xctest */,
+				39A8304E2A360ED90033B8FB /* WWDC2022-GridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39A830362A360ED80033B8FB /* WWDC2022-Grid */ = {
+			isa = PBXGroup;
+			children = (
+				39A830372A360ED80033B8FB /* WWDC2022_GridApp.swift */,
+				39A830392A360ED80033B8FB /* ContentView.swift */,
+				39A8303B2A360ED90033B8FB /* Assets.xcassets */,
+				39A8303D2A360ED90033B8FB /* Preview Content */,
+			);
+			path = "WWDC2022-Grid";
+			sourceTree = "<group>";
+		};
+		39A8303D2A360ED90033B8FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39A8303E2A360ED90033B8FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39A830472A360ED90033B8FB /* WWDC2022-GridTests */ = {
+			isa = PBXGroup;
+			children = (
+				39A830482A360ED90033B8FB /* WWDC2022_GridTests.swift */,
+			);
+			path = "WWDC2022-GridTests";
+			sourceTree = "<group>";
+		};
+		39A830512A360ED90033B8FB /* WWDC2022-GridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39A830522A360ED90033B8FB /* WWDC2022_GridUITests.swift */,
+				39A830542A360ED90033B8FB /* WWDC2022_GridUITestsLaunchTests.swift */,
+			);
+			path = "WWDC2022-GridUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39A830332A360ED80033B8FB /* WWDC2022-Grid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A830582A360ED90033B8FB /* Build configuration list for PBXNativeTarget "WWDC2022-Grid" */;
+			buildPhases = (
+				39A830302A360ED80033B8FB /* Sources */,
+				39A830312A360ED80033B8FB /* Frameworks */,
+				39A830322A360ED80033B8FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WWDC2022-Grid";
+			productName = "WWDC2022-Grid";
+			productReference = 39A830342A360ED80033B8FB /* WWDC2022-Grid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39A830432A360ED90033B8FB /* WWDC2022-GridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A8305B2A360ED90033B8FB /* Build configuration list for PBXNativeTarget "WWDC2022-GridTests" */;
+			buildPhases = (
+				39A830402A360ED90033B8FB /* Sources */,
+				39A830412A360ED90033B8FB /* Frameworks */,
+				39A830422A360ED90033B8FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39A830462A360ED90033B8FB /* PBXTargetDependency */,
+			);
+			name = "WWDC2022-GridTests";
+			productName = "WWDC2022-GridTests";
+			productReference = 39A830442A360ED90033B8FB /* WWDC2022-GridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39A8304D2A360ED90033B8FB /* WWDC2022-GridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A8305E2A360ED90033B8FB /* Build configuration list for PBXNativeTarget "WWDC2022-GridUITests" */;
+			buildPhases = (
+				39A8304A2A360ED90033B8FB /* Sources */,
+				39A8304B2A360ED90033B8FB /* Frameworks */,
+				39A8304C2A360ED90033B8FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39A830502A360ED90033B8FB /* PBXTargetDependency */,
+			);
+			name = "WWDC2022-GridUITests";
+			productName = "WWDC2022-GridUITests";
+			productReference = 39A8304E2A360ED90033B8FB /* WWDC2022-GridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39A8302C2A360ED80033B8FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					39A830332A360ED80033B8FB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					39A830432A360ED90033B8FB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 39A830332A360ED80033B8FB;
+					};
+					39A8304D2A360ED90033B8FB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 39A830332A360ED80033B8FB;
+					};
+				};
+			};
+			buildConfigurationList = 39A8302F2A360ED80033B8FB /* Build configuration list for PBXProject "WWDC2022-Grid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39A8302B2A360ED80033B8FB;
+			productRefGroup = 39A830352A360ED80033B8FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39A830332A360ED80033B8FB /* WWDC2022-Grid */,
+				39A830432A360ED90033B8FB /* WWDC2022-GridTests */,
+				39A8304D2A360ED90033B8FB /* WWDC2022-GridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39A830322A360ED80033B8FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A8303F2A360ED90033B8FB /* Preview Assets.xcassets in Resources */,
+				39A8303C2A360ED90033B8FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A830422A360ED90033B8FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A8304C2A360ED90033B8FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39A830302A360ED80033B8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A8303A2A360ED80033B8FB /* ContentView.swift in Sources */,
+				39A830382A360ED80033B8FB /* WWDC2022_GridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A830402A360ED90033B8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A830492A360ED90033B8FB /* WWDC2022_GridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A8304A2A360ED90033B8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A830532A360ED90033B8FB /* WWDC2022_GridUITests.swift in Sources */,
+				39A830552A360ED90033B8FB /* WWDC2022_GridUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39A830462A360ED90033B8FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39A830332A360ED80033B8FB /* WWDC2022-Grid */;
+			targetProxy = 39A830452A360ED90033B8FB /* PBXContainerItemProxy */;
+		};
+		39A830502A360ED90033B8FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39A830332A360ED80033B8FB /* WWDC2022-Grid */;
+			targetProxy = 39A8304F2A360ED90033B8FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39A830562A360ED90033B8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39A830572A360ED90033B8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39A830592A360ED90033B8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WWDC2022-Grid/Preview Content\"";
+				DEVELOPMENT_TEAM = 3STM9V8DT5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-200105263.WWDC2022-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39A8305A2A360ED90033B8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WWDC2022-Grid/Preview Content\"";
+				DEVELOPMENT_TEAM = 3STM9V8DT5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-200105263.WWDC2022-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39A8305C2A360ED90033B8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3STM9V8DT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-200105263.WWDC2022-GridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC2022-Grid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WWDC2022-Grid";
+			};
+			name = Debug;
+		};
+		39A8305D2A360ED90033B8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3STM9V8DT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-200105263.WWDC2022-GridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDC2022-Grid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WWDC2022-Grid";
+			};
+			name = Release;
+		};
+		39A8305F2A360ED90033B8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3STM9V8DT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-200105263.WWDC2022-GridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WWDC2022-Grid";
+			};
+			name = Debug;
+		};
+		39A830602A360ED90033B8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3STM9V8DT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-200105263.WWDC2022-GridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WWDC2022-Grid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39A8302F2A360ED80033B8FB /* Build configuration list for PBXProject "WWDC2022-Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A830562A360ED90033B8FB /* Debug */,
+				39A830572A360ED90033B8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A830582A360ED90033B8FB /* Build configuration list for PBXNativeTarget "WWDC2022-Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A830592A360ED90033B8FB /* Debug */,
+				39A8305A2A360ED90033B8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A8305B2A360ED90033B8FB /* Build configuration list for PBXNativeTarget "WWDC2022-GridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A8305C2A360ED90033B8FB /* Debug */,
+				39A8305D2A360ED90033B8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A8305E2A360ED90033B8FB /* Build configuration list for PBXNativeTarget "WWDC2022-GridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A8305F2A360ED90033B8FB /* Debug */,
+				39A830602A360ED90033B8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39A8302C2A360ED80033B8FB /* Project object */;
+}
