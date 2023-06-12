@@ -14,6 +14,8 @@
 		39A830492A360ED90033B8FB /* WWDC2022_GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830482A360ED90033B8FB /* WWDC2022_GridTests.swift */; };
 		39A830532A360ED90033B8FB /* WWDC2022_GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830522A360ED90033B8FB /* WWDC2022_GridUITests.swift */; };
 		39A830552A360ED90033B8FB /* WWDC2022_GridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830542A360ED90033B8FB /* WWDC2022_GridUITestsLaunchTests.swift */; };
+		39A830622A360F010033B8FB /* voters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830612A360F010033B8FB /* voters.swift */; };
+		39A830642A36C3820033B8FB /* MyEqualWidthHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A830632A36C3820033B8FB /* MyEqualWidthHStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		39A8304E2A360ED90033B8FB /* WWDC2022-GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WWDC2022-GridUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A830522A360ED90033B8FB /* WWDC2022_GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2022_GridUITests.swift; sourceTree = "<group>"; };
 		39A830542A360ED90033B8FB /* WWDC2022_GridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2022_GridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39A830612A360F010033B8FB /* voters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voters.swift; sourceTree = "<group>"; };
+		39A830632A36C3820033B8FB /* MyEqualWidthHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEqualWidthHStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				39A830392A360ED80033B8FB /* ContentView.swift */,
 				39A8303B2A360ED90033B8FB /* Assets.xcassets */,
 				39A8303D2A360ED90033B8FB /* Preview Content */,
+				39A830612A360F010033B8FB /* voters.swift */,
+				39A830632A36C3820033B8FB /* MyEqualWidthHStack.swift */,
 			);
 			path = "WWDC2022-Grid";
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				39A8303A2A360ED80033B8FB /* ContentView.swift in Sources */,
 				39A830382A360ED80033B8FB /* WWDC2022_GridApp.swift in Sources */,
+				39A830622A360F010033B8FB /* voters.swift in Sources */,
+				39A830642A36C3820033B8FB /* MyEqualWidthHStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WWDC2022-Grid/Preview Content\"";
-				DEVELOPMENT_TEAM = 3STM9V8DT5;
+				DEVELOPMENT_TEAM = 2AK6DBZJHZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -446,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WWDC2022-Grid/Preview Content\"";
-				DEVELOPMENT_TEAM = 3STM9V8DT5;
+				DEVELOPMENT_TEAM = 2AK6DBZJHZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
